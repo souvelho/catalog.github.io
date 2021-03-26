@@ -1,0 +1,54 @@
+html{
+    padding:0;
+  }
+body{
+    font-family: 'Akaya Kanadaka','Mukta';
+    text-align: center;
+    background-image:url("https://praquandovoceacordar.files.wordpress.com/2014/08/desfocada.jpg");
+    background-color: #000000;
+    background-size:cover ;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding:0;
+  }
+  
+.box{
+    text-align: center;
+    padding: 20px;
+  }
+  
+.catalogo{
+    list-style-type: none;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  /*Distância dos itens Da Lista*/
+.catalogo li{
+    margin:3px;
+  }
+  /*Organização da Imagem*/
+.catalogo div{
+    height:280px;
+    width:200px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  /*Imagem Centralizada*/
+.catalogo img{
+    width:100%;
+  }
+  /*Nome dos Animes*/
+.catalogo h2{
+    font-size:25px;
+  }
+.page-title{
+   background-image: linear-gradient(black, rgba(0,0,0,0.5));
+   color: white;
+   width:110%;
+   text-align: left;
+   font-family: Mukta;
+   margin:-8px;
+   padding:10px;
+  }
